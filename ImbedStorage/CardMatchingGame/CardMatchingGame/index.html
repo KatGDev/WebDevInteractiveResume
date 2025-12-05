@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Card Match Game</title>
+</head>
+<header>
+    <span class="player">Loading..</span>
+    <span class="timer">Loading..</span>
+</header>
+
+<body>
+    <div class="background">
+        <div class="grid"></div>
+    </div>
+    <div>
+        <a href="#popup"></a>
+        <div id="popup" class="popup" onload="popup()">
+            <div class="popup-content">
+                <h2>Name Box</h2>
+                <p>Please Enter your Name, after entering it once your name will be saved in Local Storage!</p>
+                <input type="text" id="username" name="name">
+                <a href="#" class="popup-close" onclick="nameSet();">Finish</a>
+            </div>
+        </div>
+    </div>
+    <script defer src="script.js"></script>
+</body>
+
+</html>
