@@ -1,7 +1,8 @@
 body {
     background: linear-gradient(to bottom, #141414,#303030);
     margin: 0;
-    height: 100%;
+    overflow: hidden;
+    height: 100em;
     width: 100%;
 }
 
@@ -45,4 +46,5 @@ body {
 }
 a {
     color: inherit;
+
 }
