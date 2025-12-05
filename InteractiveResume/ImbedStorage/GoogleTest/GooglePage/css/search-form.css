@@ -1,0 +1,135 @@
+/* STYLES FOR SEARCH FORM */
+
+input {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  color: hsl(0, 0%, 0%);
+  padding: 0;
+  width: 100%;
+}
+
+.search-form {
+  margin: 0 auto;
+  max-width: 584px;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+
+.search-form .search-input {
+  border: 1px solid #777777;
+  font-size: 1.1rem;
+  height: 25px;
+  margin: 5px 0;
+  padding: 10px 45px;
+  position: relative;
+  top: 3px;
+}
+
+.search-form .search-input:hover,
+.search-form .search-input:focus {
+  -webkit-box-shadow: 0 1px 6px rgba(32, 33, 36, 28%);
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 28%);
+  outline: none;
+}
+
+.search-form .google-mic-button .tooltip,
+.search-form .google-camera-button .tooltip {
+  background: hsl(0, 0%, 0%);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  padding: 6px 10px;
+}
+
+.search-form .google-mic-button:hover .tooltip,
+.search-form .google-camera-button:hover .tooltip {
+  bottom: -40px;
+  display: block;
+  right: -47px;
+}
+
+
+.search-form .button-group {
+  padding-top: 0px;
+}
+
+.search-form .search-button,
+.search-form .search-button:visited,
+.search-form .search-button:hover,
+.search-form .search-button:active,
+.search-form .search-button:focus {
+  background: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-size: 1.02rem;
+  margin: 11px 6px;
+  padding: 8px 16px;
+}
+
+.search-form .search-button:hover {
+  border: 1px solid #dadce0;
+}
+
+.tab {
+  overflow: hidden;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: relative;
+  top: 7px;
+}
+
+.tab button {
+  
+  margin-right: 15px;
+  margin-left: 15px;
+  border: 1px solid #dadce0;
+  background-color: #dadce0;
+  color:#0041a3;
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: -10px;
+  padding-bottom: -10px;
+}
+
+.tab button :hover {
+  background-color: #3c4043;
+}
+
+.Horizontal-line{
+  
+  display: block;
+  height: 0px;
+  border: 0;
+  border-top: 1px solid #0066ff;
+  margin: 1em 0;
+  padding: 0;
+  width: 50%;
+  position: relative;
+  left: 25.5%;
+  bottom: 8px;
+}
+
+.bullet-list {
+  display:flex;
+  font-size: 10px;
+  position: relative;
+  left: 590px;
+  color:#0041a3 !important;
+  bottom: 30px;
+  text-decoration: underline;
+}
+
+
+/* Media queries */
+@media all and (max-width: 600px) {
+  .search-form .google-camera-button:hover .tooltip {
+    right: 0  px;
+  }
+
+  .search-form .google-camera-button:hover .tooltip:after {
+    left: 100%;
+  }
+}
